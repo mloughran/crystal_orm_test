@@ -12,12 +12,13 @@ module OrmTestGranite
     column name : String
     column orm : String
     column idx : Int32
+    column uuid : UUID
     timestamps
   end
 
   # INSERT INTO users(name) VALUES(whatever)
   def simple_insert(idx : Int32)
-    User.create(name: "GraniteRecord #{idx}", orm: "granite", idx: idx)
+    User.create(name: "GraniteRecord #{idx}", orm: "granite", idx: idx, uuid: UUID.random)
   end
 
   # SELECT * FROM users WHERE orm = 'granite' ORDER BY id ASC

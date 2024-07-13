@@ -18,6 +18,7 @@ module OrmTestJennifer
       name: String,
       orm: String,
       idx: Int32,
+      uuid: UUID,
       created_at: Time,
       updated_at: Time
     )
@@ -29,6 +30,7 @@ module OrmTestJennifer
       name:       "JenniferGuy #{idx}",
       orm:        "jennifer",
       idx:        idx,
+      uuid:       UUID.random,
       created_at: Time.utc,
       updated_at: Time.utc,
     })

@@ -18,6 +18,7 @@ CREATE TABLE users(
   name character varying NOT NULL,
   orm VARCHAR(100) NOT NULL,
   idx integer NOT NULL,
+  uuid UUID NOT NULL,
   created_at timestamp NOT NULL DEFAULT now(),
   updated_at timestamp NOT NULL DEFAULT now()
 );

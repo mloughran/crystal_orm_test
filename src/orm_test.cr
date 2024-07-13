@@ -9,7 +9,7 @@ DATABASE = {host: "localhost", name: "crystal_orm_test", user: USERNAME}
 ENABLED_ORMS = [
   # "Avram",
   "Clear",
-  "Crecto",
+  # "Crecto",
   "Granite",
   "Jennifer",
   # "OnyxSql",

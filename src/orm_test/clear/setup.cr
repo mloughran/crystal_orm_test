@@ -11,6 +11,7 @@ module OrmTestClear
     column name : String
     column orm : String
     column idx : Int32
+    column uuid : UUID
     column created_at : Time, presence: false
     column updated_at : Time, presence: false
   end
@@ -21,6 +22,7 @@ module OrmTestClear
     u.name = "ClearRecord #{idx}"
     u.orm = "clear"
     u.idx = idx
+    u.uuid = UUID.random
     u.save!
   end
 

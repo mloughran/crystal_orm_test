@@ -34,8 +34,8 @@ shards:
     version: 0.1.0+git.commit.f5dafc934a70e0ee2f246dddf3df44686f844da2
 
   granite:
-    git: https://github.com/amberframework/granite.git
-    version: 0.23.2+git.commit.c8b80ee31ea86b130028ecdbd86b18d16c41780d
+    git: https://github.com/mloughran/granite.git
+    version: 0.23.3+git.commit.ddefe2e52d861c19a15f064221c2a9da719ec918
 
   habitat:
     git: https://github.com/luckyframework/habitat.git

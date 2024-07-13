@@ -18,6 +18,7 @@ module OrmTestCrecto
       field :name, String
       field :orm, String
       field :idx, Int32
+      # field :uuid, UUID
     end
   end
 
@@ -27,6 +28,7 @@ module OrmTestCrecto
     u.name = "CrectoRecord #{idx}"
     u.orm = "crecto"
     u.idx = idx
+    # u.uuid = UUID.random
     Repo.insert(u)
   end
 

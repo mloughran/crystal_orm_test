@@ -14,8 +14,8 @@ dependencies:
     branch: master
 
   granite:
-    github: amberframework/granite
-    branch: master
+    github: mloughran/granite
+    branch: fix-uuid
 
   crecto:
     github: Crecto/crecto
